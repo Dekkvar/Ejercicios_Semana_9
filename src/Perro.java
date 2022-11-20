@@ -2,6 +2,8 @@ public class Perro {
     private String pelo = "";
     private String color = "";
     private int chip;
+    private int peso;
+    private int altura;
 
     /*Ahora el IDE da un error ya que la clase main no puede
     acceder a los datos de la clase perro para modificarlos*/
@@ -18,6 +20,14 @@ public class Perro {
         this.chip = chip;
     }
 
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
     public String getPelo() {
         return pelo;
     }
@@ -28,5 +38,13 @@ public class Perro {
 
     public int getChip() {
         return chip;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public int getAltura() {
+        return altura;
     }
 }
