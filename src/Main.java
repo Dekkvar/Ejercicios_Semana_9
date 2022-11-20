@@ -15,5 +15,9 @@ public class Main {
         manada[2] = new Perro();
         manada[2].setAltura(25);
         manada[2].setPeso(30);
+
+        for (Perro d:manada) {
+            System.out.println(d.ladrar());
+        }
     }
 }
