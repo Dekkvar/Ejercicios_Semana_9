@@ -5,6 +5,21 @@ public class Perro {
     private int peso;
     private int altura;
 
+    public String ladrar() {
+        String ladrido = "";
+        if (this.peso < 10 && this.altura < 20) {
+            ladrido = "ladrido muy agudo";
+        } else if (this.peso < 10 && this.altura > 20) {
+            ladrido = "ladrido agudo";
+        } else if (this.peso > 10 && this.altura <20) {
+            ladrido = "ladrido grave";
+        } else {
+            ladrido = "ladrido muy grave";
+        }
+
+        return ladrido;
+    }
+
     /*Ahora el IDE da un error ya que la clase main no puede
     acceder a los datos de la clase perro para modificarlos*/
 
