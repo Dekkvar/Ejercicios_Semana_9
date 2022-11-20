@@ -30,7 +30,7 @@ un ladrido más agudo o más grave.
 
 ## Ejercicio 7
 Crea tres objetos Perro en el método main y almacénalos en un array
-(Puedes usar la construcción Perro [] nombreArray). Asina valores a cada
+(Puedes usar la construcción Perro [] nombreArray). Asigna valores a cada
 objeto perro.
 
 ## Ejercicio 8

@@ -9,9 +9,9 @@ public class Perro {
         String ladrido = "";
         if (this.peso < 10 && this.altura < 20) {
             ladrido = "ladrido muy agudo";
-        } else if (this.peso < 10 && this.altura > 20) {
+        } else if (this.peso < 10) {
             ladrido = "ladrido agudo";
-        } else if (this.peso > 10 && this.altura <20) {
+        } else if (this.altura <20) {
             ladrido = "ladrido grave";
         } else {
             ladrido = "ladrido muy grave";
